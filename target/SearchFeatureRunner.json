@@ -1,0 +1,532 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12640387500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search based on laptops",
+        "description": "",
+        "id": "search-feature-of-the-web-page;search-based-on-laptops",
+        "after": [
+          {
+            "result": {
+              "duration": 6691363400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3185744400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2064465100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Laptops\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.02 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51176}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir10400_1781171912}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: ada8512509198e741387fc6d7a5cf7ef\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Laptops\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Laptops\" search filter(featurefile/Search.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": ": I click on the \"Laptops\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": I should be at the \"Laptops\" search page with \"35 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 22
+                },
+                {
+                  "val": "35 items",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search based on laptops.jpg"
+            ],
+            "line": 7,
+            "name": ": The title should be \"Laptops\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6602405700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Search based on Tablets",
+        "description": "",
+        "id": "search-feature-of-the-web-page;search-based-on-tablets",
+        "after": [
+          {
+            "result": {
+              "duration": 2584251800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2230798800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2068760200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Tablets\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.06 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51197}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir8072_984733533}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f416c367c2860403fdac015233f2f0f0\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Tablets\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Tablets\" search filter(featurefile/Search.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": ": I click on the \"Tablets\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": ": I should be at the \"Tablets\" search page with \"5 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 22
+                },
+                {
+                  "val": "5 items",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search based on Tablets.jpg"
+            ],
+            "line": 13,
+            "name": ": The title should be \"Tablets\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6715669300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search based on Cameras",
+        "description": "",
+        "id": "search-feature-of-the-web-page;search-based-on-cameras",
+        "after": [
+          {
+            "result": {
+              "duration": 2319025000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086810300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2055940100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Cameras\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.05 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51218}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir5944_755020699}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f5b644f57ae38b29391afcf6994a58d4\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Cameras\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Cameras\" search filter(featurefile/Search.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": ": I click on the \"Cameras\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cameras",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": ": I should be at the \"Cameras\" search page with \"47 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cameras",
+                  "offset": 22
+                },
+                {
+                  "val": "47 items",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search based on Cameras.jpg"
+            ],
+            "line": 19,
+            "name": ": The title should be \"Cameras\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cameras",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6329181900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search based on Mobile Phones",
+        "description": "",
+        "id": "search-feature-of-the-web-page;search-based-on-mobile-phones",
+        "after": [
+          {
+            "result": {
+              "duration": 2169843300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2150980000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102967800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Mobile Phones\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51239}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir6252_663012581}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: d26d175f80623f413c7cd91a53d0559f\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Mobile Phones\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Mobile Phones\" search filter(featurefile/Search.feature:23)\r\n",
+              "status": "failed"
+            },
+            "line": 23,
+            "name": ": I click on the \"Mobile Phones\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile Phones",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": ": I should be at the \"Mobile Phones\" search page with \"33 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile Phones",
+                  "offset": 22
+                },
+                {
+                  "val": "33 items",
+                  "offset": 55
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search based on Mobile Phones.jpg"
+            ],
+            "line": 25,
+            "name": ": The title should be \"Mobile Phones\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile Phones",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6510883400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Search based on Books",
+        "description": "",
+        "id": "search-feature-of-the-web-page;search-based-on-books",
+        "after": [
+          {
+            "result": {
+              "duration": 1960615300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883422800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2041809700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Books - Children\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.04 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51260}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir1848_617898815}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: f77bdd83e2605a3993cc3f5f1707e88a\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Books - Children\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Books - Children\" search filter(featurefile/Search.feature:29)\r\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": ": I click on the \"Books - Children\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books - Children",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": ": I should be at the \"Books - Children\" search page with \"11 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books - Children",
+                  "offset": 22
+                },
+                {
+                  "val": "11 items",
+                  "offset": 58
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search based on Books.jpg"
+            ],
+            "line": 31,
+            "name": ": The title should be \"Books - Children\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books - Children",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search feature of the web page",
+    "description": "",
+    "id": "search-feature-of-the-web-page",
+    "keyword": "Feature",
+    "uri": "featurefile/Search.feature"
+  }
+]

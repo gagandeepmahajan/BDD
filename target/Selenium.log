@@ -1,0 +1,48 @@
+2020-05-13 12:46:59 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:11 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:47:18 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on laptops.jpg
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:30 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:47:35 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Tablets.jpg
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:44 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:47:48 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Cameras.jpg
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:56 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:01 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Mobile Phones.jpg
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:09 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:14 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Books.jpg
+2020-05-13 12:48:15 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:15 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:16 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:22 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+2020-05-13 12:48:26 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Laptop and add it to the cart.jpg
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [afterChrome] 
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:35 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:39 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Tablet and add it to the cart.jpg
+2020-05-13 12:48:40 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:40 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:41 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:47 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:51 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Speakers.jpg
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Firefox
+2020-05-13 12:49:44 [INFO ] [InitializeWebDrive] - [afterFirefox] 
+2020-05-13 12:49:44 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:49:57 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+2020-05-13 12:50:02 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Adding multiple item into the cart.jpg
+2020-05-13 12:50:04 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:50:04 [INFO ] [InitializeWebDrive] - [afterChrome] 
+2020-05-13 12:50:16 [INFO ] [CucumberReport] - [onFinish] Report Generated : target\test-classes\reports\cucumberreports

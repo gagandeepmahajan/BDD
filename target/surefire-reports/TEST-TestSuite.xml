@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="205.036" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\SeleniumCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\SeleniumCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jre1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\bin;G:\apache-ant-1.10.5\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\apache-maven-3.6.3\apache-maven-3.6.3\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean generate-sources test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="com.cucumber.framework.runner.SearchFeatureRunner" time="77.548">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Laptops&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LAPTOP-AFE8O7BQ&apos;, ip: &apos;192.168.100.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir10400_1781171912}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: ada8512509198e741387fc6d7a5cf7ef&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Laptops&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir10400_1781171912}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: ada8512509198e741387fc6d7a5cf7ef
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir10400_1781171912}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: ada8512509198e741387fc6d7a5cf7ef
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+</failure>
+    <system-out><![CDATA[Feature: Search feature of the web page
+2020-05-13 12:46:59 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:11 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:47:18 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on laptops.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on laptops.jpg&amp#27;[0m
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:23 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:30 [INFO ] [InitializeWebDrive] - [before] Chrome
+
+  Scenario: Search based on laptops                                 &amp#27;[90m# featurefile/Search.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                   &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                   &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.02 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir10400_1781171912}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: ada8512509198e741387fc6d7a5cf7ef
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Laptops" search filter(featurefile/Search.feature:5)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m35 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                 &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+2020-05-13 12:47:35 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Tablets.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Tablets.jpg&amp#27;[0m
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:37 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:44 [INFO ] [InitializeWebDrive] - [before] Chrome
+
+  Scenario: Search based on Tablets                                &amp#27;[90m# featurefile/Search.feature:9&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                  &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mTablets&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                  &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.06 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51197}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir8072_984733533}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: f416c367c2860403fdac015233f2f0f0
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Tablets" search filter(featurefile/Search.feature:11)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mTablets&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m5 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mTablets&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+2020-05-13 12:47:48 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Cameras.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Cameras.jpg&amp#27;[0m
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:47:50 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:47:56 [INFO ] [InitializeWebDrive] - [before] Chrome
+
+  Scenario: Search based on Cameras                                 &amp#27;[90m# featurefile/Search.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                   &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mCameras&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                   &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Cameras']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.05 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51218}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5944_755020699}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: f5b644f57ae38b29391afcf6994a58d4
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Cameras']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Cameras" search filter(featurefile/Search.feature:17)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mCameras&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m47 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mCameras&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                 &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+2020-05-13 12:48:01 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Mobile Phones.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Mobile Phones.jpg&amp#27;[0m
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:03 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:09 [INFO ] [InitializeWebDrive] - [before] Chrome
+
+  Scenario: Search based on Mobile Phones                                 &amp#27;[90m# featurefile/Search.feature:21&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                         &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mMobile Phones&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                   &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Mobile Phones']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.10 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51239}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir6252_663012581}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: d26d175f80623f413c7cd91a53d0559f
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Mobile Phones']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Mobile Phones" search filter(featurefile/Search.feature:23)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mMobile Phones&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m33 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mMobile Phones&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                 &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+2020-05-13 12:48:14 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Books.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Books.jpg&amp#27;[0m
+2020-05-13 12:48:15 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:15 [INFO ] [InitializeWebDrive] - [after] 
+
+  Scenario: Search based on Books                                            &amp#27;[90m# featurefile/Search.feature:27&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                            &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mBooks - Children&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                   &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Books - Children']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.04 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir1848_617898815}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: f77bdd83e2605a3993cc3f5f1707e88a
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Books - Children']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Books - Children" search filter(featurefile/Search.feature:29)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mBooks - Children&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m11 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mBooks - Children&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                 &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 9164
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14704
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 21336
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 47345
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 36474
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.cucumber.framework.runner.LaptopFeatureRunner" time="9.966">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Laptops&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.08 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LAPTOP-AFE8O7BQ&apos;, ip: &apos;192.168.100.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51281}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11836_731870406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 4dfc569b82809aad91f4bc0e95370a63&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Laptops&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51281}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11836_731870406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4dfc569b82809aad91f4bc0e95370a63
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51281}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11836_731870406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4dfc569b82809aad91f4bc0e95370a63
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+</failure>
+    <system-out><![CDATA[
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31mfeaturefile/Search.feature:3 &amp#27;[0m# Scenario: Search based on laptops
+&amp#27;[31mfeaturefile/Search.feature:9 &amp#27;[0m# Scenario: Search based on Tablets
+&amp#27;[31mfeaturefile/Search.feature:15 &amp#27;[0m# Scenario: Search based on Cameras
+&amp#27;[31mfeaturefile/Search.feature:21 &amp#27;[0m# Scenario: Search based on Mobile Phones
+&amp#27;[31mfeaturefile/Search.feature:27 &amp#27;[0m# Scenario: Search based on Books
+
+5 Scenarios (&amp#27;[31m5 failed&amp#27;[0m)
+20 Steps (&amp#27;[31m5 failed&amp#27;[0m, &amp#27;[36m10 skipped&amp#27;[0m, &amp#27;[32m5 passed&amp#27;[0m)
+1m16.395s
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51176}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir10400_1781171912}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: ada8512509198e741387fc6d7a5cf7ef
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Laptops" search filter(featurefile/Search.feature:5)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51197}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir8072_984733533}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f416c367c2860403fdac015233f2f0f0
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Tablets" search filter(featurefile/Search.feature:11)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Cameras']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51218}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5944_755020699}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f5b644f57ae38b29391afcf6994a58d4
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Cameras']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Cameras" search filter(featurefile/Search.feature:17)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Mobile Phones']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51239}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir6252_663012581}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: d26d175f80623f413c7cd91a53d0559f
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Mobile Phones']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Mobile Phones" search filter(featurefile/Search.feature:23)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Books - Children']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir1848_617898815}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f77bdd83e2605a3993cc3f5f1707e88a
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Books - Children']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Books - Children" search filter(featurefile/Search.feature:29)
+
+Feature: Adding a laptop to the Cart
+2020-05-13 12:48:16 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:22 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+2020-05-13 12:48:26 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Laptop and add it to the cart.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Laptop and add it to the cart.jpg&amp#27;[0m
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [afterChrome] 
+
+  @chrome
+  Scenario: Search Laptop and add it to the cart                                        &amp#27;[90m# featurefile/Laptops.feature:4&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                                       &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                                       &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.08 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51281}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11836_731870406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: 4dfc569b82809aad91f4bc0e95370a63
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Laptops" search filter(featurefile/Laptops.feature:6)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m35 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m                     &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mLaptops&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                                     &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select the "&amp#27;[0m&amp#27;[36m&amp#27;[1mAPPLE MacBook Pro Retina&amp#27;[0m&amp#27;[36m" with description as "&amp#27;[0m&amp#27;[36m&amp#27;[1m15-inch, 256GB&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# LaptopCart._i_select_the_something_with_description_as_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: Add it to the cart&amp#27;[0m                                                            &amp#27;[90m# LaptopCart._add_it_to_the_cart()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: Navigate to user details page and provide the following details&amp#27;[0m              &amp#27;[90m# LaptopCart._navigate_to_user_details_page_and_provide_the_following_details(String,String>)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 32976
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.cucumber.framework.runner.TabletFeatureRunner" time="11.774">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Tablets&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.10 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LAPTOP-AFE8O7BQ&apos;, ip: &apos;192.168.100.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51302}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5632_667360644}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: eab2f06d694251803173adae6bad5f21&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Tablets&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51302}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5632_667360644}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eab2f06d694251803173adae6bad5f21
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51302}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5632_667360644}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eab2f06d694251803173adae6bad5f21
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+</failure>
+    <system-out><![CDATA[
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31mfeaturefile/Laptops.feature:4 &amp#27;[0m# Scenario: Search Laptop and add it to the cart
+
+1 Scenarios (&amp#27;[31m1 failed&amp#27;[0m)
+7 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[36m5 skipped&amp#27;[0m, &amp#27;[32m1 passed&amp#27;[0m)
+0m12.559s
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Laptops']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51281}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11836_731870406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4dfc569b82809aad91f4bc0e95370a63
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Laptops']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Laptops" search filter(featurefile/Laptops.feature:6)
+
+Feature: Adding a Tablet to the Cart
+2020-05-13 12:48:28 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:35 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:39 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Tablet and add it to the cart.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search Tablet and add it to the cart.jpg&amp#27;[0m
+2020-05-13 12:48:40 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:40 [INFO ] [InitializeWebDrive] - [after] 
+
+  Scenario: Search Tablet and add it to the cart                                   &amp#27;[90m# featurefile/Tablet.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                                  &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mTablets&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                                  &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.10 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51302}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5632_667360644}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: eab2f06d694251803173adae6bad5f21
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Tablets" search filter(featurefile/Tablet.feature:5)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mTablets&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m51 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m                &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mTablets&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                                &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select the "&amp#27;[0m&amp#27;[36m&amp#27;[1mAPPLE iPad Mini 4&amp#27;[0m&amp#27;[36m" with description as "&amp#27;[0m&amp#27;[36m&amp#27;[1mWiFi 64GB Silver&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# LaptopCart._i_select_the_something_with_description_as_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: Add it to the cart&amp#27;[0m                                                       &amp#27;[90m# LaptopCart._add_it_to_the_cart()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: Navigate to user details page and provide the following details&amp#27;[0m         &amp#27;[90m# LaptopCart._navigate_to_user_details_page_and_provide_the_following_details(String,String>)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14583
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.cucumber.framework.runner.SearchWithFilterRunner" time="83.211">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Speakers&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.05 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LAPTOP-AFE8O7BQ&apos;, ip: &apos;192.168.100.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51323}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1527760526}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: a12385211ee1bc4bac88fc0f2104aa99&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;main-nav&apos;]//a[text()=&apos;Speakers&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Speakers']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51323}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1527760526}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a12385211ee1bc4bac88fc0f2104aa99
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Speakers']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Speakers']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51323}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1527760526}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: a12385211ee1bc4bac88fc0f2104aa99
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Speakers']}
+</failure>
+    <system-out><![CDATA[
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31mfeaturefile/Tablet.feature:3 &amp#27;[0m# Scenario: Search Tablet and add it to the cart
+
+1 Scenarios (&amp#27;[31m1 failed&amp#27;[0m)
+7 Steps (&amp#27;[31m1 failed&amp#27;[0m, &amp#27;[36m5 skipped&amp#27;[0m, &amp#27;[32m1 passed&amp#27;[0m)
+0m11.951s
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Tablets']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51302}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir5632_667360644}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eab2f06d694251803173adae6bad5f21
+*** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Tablets']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+	at ?.When : I click on the "Tablets" search filter(featurefile/Tablet.feature:5)
+
+Feature: Search with specific filter and add it to cart
+2020-05-13 12:48:41 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:48:47 [INFO ] [InitializeWebDrive] - [before] Chrome
+2020-05-13 12:48:51 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Speakers.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Search based on Speakers.jpg&amp#27;[0m
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [after] 
+2020-05-13 12:48:53 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Firefox
+&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mInitializeWebDrive.beforeFirefox()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31morg.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+	at com.cucumber.framework.configuration.browser.FirefoxBrowser.getFirefoxDriver(FirefoxBrowser.java:39)
+	at com.cucumber.framework.helper.InitializeWebDrive.standAloneStepUp(InitializeWebDrive.java:55)
+	at com.cucumber.framework.helper.InitializeWebDrive.setUpDriver(InitializeWebDrive.java:146)
+	at com.cucumber.framework.helper.InitializeWebDrive.beforeFirefox(InitializeWebDrive.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 51 more
+&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+      
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: driver.version: FirefoxDriver
+      	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+      	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+      	at com.cucumber.framework.configuration.browser.FirefoxBrowser.getFirefoxDriver(FirefoxBrowser.java:39)
+      	at com.cucumber.framework.helper.InitializeWebDrive.standAloneStepUp(InitializeWebDrive.java:55)
+      	at com.cucumber.framework.helper.InitializeWebDrive.setUpDriver(InitializeWebDrive.java:146)
+      	at com.cucumber.framework.helper.InitializeWebDrive.beforeFirefox(InitializeWebDrive.java:111)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+      	at org.testng.TestRunner.run(TestRunner.java:632)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+      	at org.testng.TestNG.run(TestNG.java:1064)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+      Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+      
+      	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+      	... 51 more
+      &amp#27;[0m
+
+  Scenario: Search based on Speakers                                 &amp#27;[90m# featurefile/SearchWithFilter.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                    &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                   &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Speakers']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.05 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51323}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1527760526}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: a12385211ee1bc4bac88fc0f2104aa99
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Speakers']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Speakers" search filter(featurefile/SearchWithFilter.feature:5)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m32 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                 &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1mSONY&amp#27;[0m&amp#27;[36m" as the brand&amp#27;[0m                              &amp#27;[90m# SearchWithFilter._i_select_something_as_the_brand(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1m£40 - £80&amp#27;[0m&amp#27;[36m" as the price filter&amp#27;[0m                   &amp#27;[90m# SearchWithFilter._i_select_something_as_the_price_filter(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m3 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m  &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+2020-05-13 12:49:44 [INFO ] [InitializeWebDrive] - [afterFirefox] 
+2020-05-13 12:49:44 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2020-05-13 12:49:57 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+
+  @firefox
+  Scenario: Validation of Item Bag page                                    &amp#27;[90m# featurefile/SearchWithFilter.feature:13&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36m: I am at the home page&amp#27;[0m                                          &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36m: I click on the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search filter&amp#27;[0m                         &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m32 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m       &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: The title should be "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page&amp#27;[0m                       &amp#27;[90m# SearchStepDfn._the_title_should_be_something_search_page(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1mSONY&amp#27;[0m&amp#27;[36m" as the brand&amp#27;[0m                                    &amp#27;[90m# SearchWithFilter._i_select_something_as_the_brand(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1m£40 - £80&amp#27;[0m&amp#27;[36m" as the price filter&amp#27;[0m                         &amp#27;[90m# SearchWithFilter._i_select_something_as_the_price_filter(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I should be at the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSpeakers&amp#27;[0m&amp#27;[36m" search page with "&amp#27;[0m&amp#27;[36m&amp#27;[1m3 items&amp#27;[0m&amp#27;[36m"&amp#27;[0m        &amp#27;[90m# SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSONY X11&amp#27;[0m&amp#27;[36m" with description as "&amp#27;[0m&amp#27;[36m&amp#27;[1mWhite&amp#27;[0m&amp#27;[36m"&amp#27;[0m             &amp#27;[90m# LaptopCart._i_select_the_something_with_description_as_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: Add it to the cart&amp#27;[0m                                               &amp#27;[90m# LaptopCart._add_it_to_the_cart()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I change the quantity to "&amp#27;[0m&amp#27;[36m&amp#27;[1m2&amp#27;[0m&amp#27;[36m" and click on update button&amp#27;[0m         &amp#27;[90m# SearchWithFilter._i_change_the_quantity_to_something_and_click_on_update_button(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: Navigate to user details page and provide the following details&amp#27;[0m &amp#27;[90m# LaptopCart._navigate_to_user_details_page_and_provide_the_following_details(String,String>)&amp#27;[0m
+2020-05-13 12:50:02 [INFO ] [GenericHelper] - [takeScreenShot] G:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Adding multiple item into the cart.jpg
+&amp#27;[34mG:\SeleniumCucumber\target\test-classes\screenshots\_2020-05-13\Adding multiple item into the cart.jpg&amp#27;[0m
+2020-05-13 12:50:04 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2020-05-13 12:50:04 [INFO ] [InitializeWebDrive] - [afterChrome] 
+
+  @chrome
+  Scenario: Adding multiple item into the cart                                                          &amp#27;[90m# featurefile/SearchWithFilter.feature:37&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: I am at the home page&amp#27;[0m                                                                       &amp#27;[90m# SearchStepDfn._i_am_at_the_home_page()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31m: I click on the "&amp#27;[0m&amp#27;[31m&amp#27;[1mHeadphones&amp#27;[0m&amp#27;[31m" search filter&amp#27;[0m                                                    &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Headphones']"}
+        (Session info: chrome=81.0.4044.138)
+        (Driver info: chromedriver=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 2.02 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+      System info: host: 'LAPTOP-AFE8O7BQ', ip: '192.168.100.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51396}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir8112_1264406001}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: e59ab9b5e73ef9f6f763d0591cef25e8
+      *** Element info: {Using=xpath, value=//div[@id='main-nav']//a[text()='Headphones']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)
+      	at com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)
+      	at ?.When : I click on the "Headphones" search filter(featurefile/SearchWithFilter.feature:39)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1mJABRA&amp#27;[0m&amp#27;[36m" as the brand&amp#27;[0m                                                                &amp#27;[90m# SearchWithFilter._i_select_something_as_the_brand(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1m£70 - £105&amp#27;[0m&amp#27;[36m" as the price filter&amp#27;[0m                                                     &amp#27;[90m# SearchWithFilter._i_select_something_as_the_price_filter(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select the "&amp#27;[0m&amp#27;[36m&amp#27;[1mJABRA Coach Headphones&amp#27;[0m&amp#27;[36m" with description as "&amp#27;[0m&amp#27;[36m&amp#27;[1mBlue&amp#27;[0m&amp#27;[36m"&amp#27;[0m                             &amp#27;[90m# LaptopCart._i_select_the_something_with_description_as_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: Add it to the cart&amp#27;[0m                                                                            &amp#27;[90m# LaptopCart._add_it_to_the_cart()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36m: I click on the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSmart Devices&amp#27;[0m&amp#27;[36m" search filter&amp#27;[0m                                                 &amp#27;[90m# SearchStepDfn._i_click_on_the_something_search_filter(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select "&amp#27;[0m&amp#27;[36m&amp#27;[1mSAMSUNG&amp#27;[0m&amp#27;[36m" as the brand&amp#27;[0m                                                              &amp#27;[90m# SearchWithFilter._i_select_something_as_the_brand(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I select the "&amp#27;[0m&amp#27;[36m&amp#27;[1mSAMSUNG Gear S2 Smartwatch&amp#27;[0m&amp#27;[36m" with description as "&amp#27;[0m&amp#27;[36m&amp#27;[1mBlack&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# LaptopCart._i_select_the_something_with_description_as_something(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36m: Add it to the cart&amp#27;[0m                                                                            &amp#27;[90m# LaptopCart._add_it_to_the_cart()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: I change the quantity of item "&amp#27;[0m&amp#27;[36m&amp#27;[1mSAMSUNG Gear S2 Smartwatch&amp#27;[0m&amp#27;[36m" to "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m" and click on update button&amp#27;[0m &amp#27;[90m# SearchWithFilter._i_change_the_quantity_of_item_something_to_something_and_click_on_update_button(String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36m: Navigate to user details page and provide the following details&amp#27;[0m                              &amp#27;[90m# LaptopCart._navigate_to_user_details_page_and_provide_the_following_details(String,String>)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 33984
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+	at com.cucumber.framework.configuration.browser.FirefoxBrowser.getFirefoxDriver(FirefoxBrowser.java:39)
+	at com.cucumber.framework.helper.InitializeWebDrive.standAloneStepUp(InitializeWebDrive.java:55)
+	at com.cucumber.framework.helper.InitializeWebDrive.setUpDriver(InitializeWebDrive.java:146)
+	at com.cucumber.framework.helper.InitializeWebDrive.beforeFirefox(InitializeWebDrive.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 33997
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+</testsuite>

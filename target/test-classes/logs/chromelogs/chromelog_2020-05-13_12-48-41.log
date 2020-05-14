@@ -1,0 +1,162 @@
+[1589354321.197][INFO]: Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 33984
+[1589354321.197][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589354321.590][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "start-maximized" ],
+         "extensions": [  ]
+      },
+      "javascriptEnabled": true,
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1589354321.596][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589354321.602][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589354321.626][INFO]: Launching chrome: "C:\Users\HP\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1150813445\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\HP\AppData\Local\Temp\scoped_dir11796_1527760526" data:,
+[1589354322.971][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589354325.043][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999})",
+      "userDataDir": "C:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir11796_1527760526"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:51323"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1589354325.056][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND SetTimeouts {
+   "ms": 240000,
+   "type": "page load"
+}
+[1589354325.057][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE SetTimeouts
+[1589354325.072][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND SetTimeouts {
+   "ms": 2000,
+   "type": "implicit"
+}
+[1589354325.072][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE SetTimeouts
+[1589354325.088][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[1589354325.088][INFO]: Waiting for pending navigations...
+[1589354325.094][INFO]: Done waiting for pending navigations. Status: ok
+[1589354325.095][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589354327.119][INFO]: Waiting for pending navigations...
+[1589354327.121][INFO]: Done waiting for pending navigations. Status: ok
+[1589354327.121][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1589354327.145][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND Navigate {
+   "url": "http://live-dutyfree.maginfrastructure.com/"
+}
+[1589354327.145][INFO]: Waiting for pending navigations...
+[1589354327.147][INFO]: Done waiting for pending navigations. Status: ok
+[1589354328.293][INFO]: Waiting for pending navigations...
+[1589354329.244][INFO]: Done waiting for pending navigations. Status: ok
+[1589354329.244][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE Navigate
+[1589354329.260][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='main-nav']//a[text()='Speakers']"
+}
+[1589354329.260][INFO]: Waiting for pending navigations...
+[1589354329.277][INFO]: Done waiting for pending navigations. Status: ok
+[1589354331.308][INFO]: Waiting for pending navigations...
+[1589354331.310][INFO]: Done waiting for pending navigations. Status: ok
+[1589354331.311][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='main-nav']//a[text()='Speakers']"}
+  (Session info: chrome=81.0.4044.138)
+[1589354331.326][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND Screenshot {
+
+}
+[1589354331.326][INFO]: Waiting for pending navigations...
+[1589354331.329][INFO]: Done waiting for pending navigations. Status: ok
+[1589354331.784][INFO]: Waiting for pending navigations...
+[1589354331.786][INFO]: Done waiting for pending navigations. Status: ok
+[1589354331.787][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X90VeWB7/9PgE56mSle52t6D6xkFIntQNrOPWnka1jtFG9aBC+GVArOTAmlEiKJdFp1MYiTuTGrGYVy1XqFEEKwlNC5BVRCYASsGeh3WrAYc9pa4FsnrG8xu..."
+[1589354331.822][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] COMMAND Quit {
+
+}
+[1589354332.334][INFO]: [a12385211ee1bc4bac88fc0f2104aa99] RESPONSE Quit

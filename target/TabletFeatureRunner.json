@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6339024300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search Tablet and add it to the cart",
+        "description": "",
+        "id": "adding-a-tablet-to-the-cart;search-tablet-and-add-it-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1890587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1611413900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "SearchStepDfn._i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2109534000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Tablets\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.10 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-AFE8O7BQ\u0027, ip: \u0027192.168.100.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51302}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}), userDataDir\u003dC:\\Users\\HP\\AppData\\Local\\Temp\\scoped_dir5632_667360644}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: eab2f06d694251803173adae6bad5f21\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027main-nav\u0027]//a[text()\u003d\u0027Tablets\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.cucumber.framework.helper.PageObject.homepage.HomePage.navigateTo(HomePage.java:133)\r\n\tat com.cucumber.framework.stepdefinition.SearchStepDfn._i_click_on_the_something_search_filter(SearchStepDfn.java:38)\r\n\tat ✽.When : I click on the \"Tablets\" search filter(featurefile/Tablet.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": ": I click on the \"Tablets\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDfn._i_click_on_the_something_search_filter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": I should be at the \"Tablets\" search page with \"51 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 22
+                },
+                {
+                  "val": "51 items",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchStepDfn._i_should_be_at_the_something_search_page_with_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": ": The title should be \"Tablets\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tablets",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchStepDfn._the_title_should_be_something_search_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": ": I select the \"APPLE iPad Mini 4\" with description as \"WiFi 64GB Silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "APPLE iPad Mini 4",
+                  "offset": 16
+                },
+                {
+                  "val": "WiFi 64GB Silver",
+                  "offset": 56
+                }
+              ],
+              "location": "LaptopCart._i_select_the_something_with_description_as_something(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": ": Add it to the cart",
+            "match": {
+              "location": "LaptopCart._add_it_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "G:\\SeleniumCucumber\\target\\test-classes\\screenshots\\_2020-05-13\\Search Tablet and add it to the cart.jpg"
+            ],
+            "line": 10,
+            "name": ": Navigate to user details page and provide the following details",
+            "match": {
+              "location": "LaptopCart._navigate_to_user_details_page_and_provide_the_following_details(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Destination",
+                  "Singapore"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Airline",
+                  "AirAsia"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "FlightNo",
+                  "A089"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "FlightDate",
+                  "24/08/2018"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "FlightTime",
+                  "5:00"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Terminal",
+                  "Terminal 1"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "FirstName",
+                  "Selenium"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "Java"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Email",
+                  "sq@j.com"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "121212121"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding a Tablet to the Cart",
+    "description": "",
+    "id": "adding-a-tablet-to-the-cart",
+    "keyword": "Feature",
+    "uri": "featurefile/Tablet.feature"
+  }
+]
